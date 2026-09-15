@@ -7,6 +7,7 @@ export const STATUS_LABELS: Record<DocumentStatus, string> = {
   SIGNED: 'Signed',
   ARCHIVED: 'Archived',
   DELETED: 'Deleted',
+  TEMP: 'Temporary',
 };
 
 export const STATUS_VARIANTS: Record<
@@ -19,4 +20,5 @@ export const STATUS_VARIANTS: Record<
   SIGNED: 'purple',
   ARCHIVED: 'gray',
   DELETED: 'red',
+  TEMP: 'gray',
 };

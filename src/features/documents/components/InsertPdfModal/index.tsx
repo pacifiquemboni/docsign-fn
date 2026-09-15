@@ -167,7 +167,6 @@ function PageSelectGrid({
 export function InsertPdfModal({
   open,
   targetPageNumber,
-  documentId,
   isInserting,
   onUpload,
   uploadProgress,

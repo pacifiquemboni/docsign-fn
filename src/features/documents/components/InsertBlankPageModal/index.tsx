@@ -38,7 +38,6 @@ function OptionButton({ active, onClick, children }: OptionButtonProps) {
 export function InsertBlankPageModal({
   open,
   targetPageNumber,
-  totalPages,
   isInserting,
   onInsert,
   onCancel,
